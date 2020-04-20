@@ -21,7 +21,7 @@ addElementToEndOfArray = (a, b) => [...a, b]
 
 accessElementInArray = (a, b) => a[b]
 
-destructivelyRemoveElementFromBeginningOfArray = (array) {
+destructivelyRemoveElementFromBeginningOfArray = (array) => {
   array.shift()
   return array
 }
