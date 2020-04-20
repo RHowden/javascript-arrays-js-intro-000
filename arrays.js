@@ -16,3 +16,5 @@ destructivelyAddElementToEndOfArray = (a, b) => {
   a.push(b)
 return a
 }
+
+addElementToEndOfArray = (a, b) => [...a, b]
