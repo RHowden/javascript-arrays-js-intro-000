@@ -5,7 +5,7 @@ function addElementToBeginningOfArray(a, b) {
 return a
 }
 
-destructivelyAddElementToBeginningOfArray = (a, b) {
+destructivelyAddElementToBeginningOfArray = (a, b) => {
   a.unshift(b)
 return a
-} 
+}
