@@ -32,3 +32,5 @@ destructivelyRemoveElementFromEndOfArray = (array) => {
   array.pop()
   return array
 }
+
+removeElementFromEndOfArray = (array) => array.slice(0, array.length -1)
