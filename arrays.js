@@ -20,3 +20,8 @@ return a
 addElementToEndOfArray = (a, b) => [...a, b]
 
 accessElementInArray = (a, b) => a[b]
+
+destructivelyRemoveElementFromBeginningOfArray = (array) {
+  array.shift()
+  return array
+}
