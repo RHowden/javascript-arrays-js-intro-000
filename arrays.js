@@ -26,4 +26,4 @@ destructivelyRemoveElementFromBeginningOfArray = (array) => {
   return array
 }
 
-removeElementFromBeginningOfArray =(array) => array.slice
+removeElementFromBeginningOfArray =(array) => array.slice()
