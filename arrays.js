@@ -8,3 +8,8 @@ destructivelyAddElementToBeginningOfArray = (a, b) => {
   a.unshift(b)
 return a
 }
+
+destructivelyAddElementToEndOfArray = (a, b) => {
+  a.push(b)
+return a
+}
